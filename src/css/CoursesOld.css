@@ -1,0 +1,27 @@
+/* Swiper Custom Styles */
+.swiper {
+  position: relative; /* Ensure proper positioning */
+  padding-bottom: 60px; /* Add extra space for pagination */
+}
+
+.swiper-pagination {
+  position: absolute; /* Ensure it positions relative to the swiper */
+  bottom: 10px; /* Position just below the carousel */
+  width: 100%; /* Stretch across the width */
+  text-align: center; /* Center-align the dots */
+}
+
+.swiper-pagination-bullet {
+  background-color: white; /* Bullet color for visibility */
+  opacity: 0.8; /* Slight transparency */
+  width: 10px; /* Size adjustment */
+  height: 10px;
+  margin: 0 5px; /* Space between dots */
+  border-radius: 50%; /* Round bullets */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: orange; /* Highlight active bullet */
+  opacity: 1; /* Full opacity for active */
+  transform: scale(1.2); /* Slightly enlarge active bullet */
+}
